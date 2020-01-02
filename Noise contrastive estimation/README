@@ -1,0 +1,64 @@
+Readme.txt
+SBUID - 112686660
+Link to the zip file - https://drive.google.com/file/d/1Hz0Xrrzd8dz3Uv8IbG5ZtY24t00Xfc5J/view?usp=sharing
+
+Folder structure =>
+
+Assignment1_for_students --
+			  |
+			  |
+			  -- loss_func.py
+			  |	
+			  -- word_analogy.py
+			  |
+			  -- word2vec_basic.py
+			  |
+			  -- models \--
+			  |	     |
+			  |	     -- word2vec_cross_entropy.model
+			  |	     |
+			  |	     -- word2vec_nce.model
+			  |
+			  -- test_outputs \--
+			  |		   |	
+			  |		   -- word_analogy_test_output_cross_entropy.txt
+			  |		   |
+			  |		   -- word_analogy_test_output_nce.txt
+			  |
+			  -- README.txt
+			  |
+			  -- text8.zip
+			  |
+			  -- score_maxdiff.pl
+			  |
+			  -- Report.pdf
+			  |
+			  -- checkpoints_nce \
+			  |
+			  -- checkpoints_cross_entropy \
+			  |
+			  -- word_analogy_dev.txt
+			  |
+			  -- word_analogy_dev_mturk_answers.txt
+			  |
+			  -- word_analogy_test.txt
+			  |
+			  -- pretrained \
+			  |	        |	
+			  |		-- w2v_pretrained.cpkt.data-00000-of-00001
+			  |		|	
+			  |		-- w2v_pretrained.cpkt.index
+			  |		|	
+			  |		-- w2v_pretrained.cpkt.meta
+			_____
+
+
+
+Steps taken for implementation
+
+1) Batch generation function was implemented and tested
+2) Cross Entropy function was implemented and tested
+3) NCE function was implemented and tested
+4) Baseline models were built and metrics were noted
+5) Various hyper parameters were tried
+6) Best model was figured out and the models were saved and their output on the test set was recorded.
